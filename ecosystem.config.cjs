@@ -2,7 +2,7 @@ module.exports = {
     apps: [
       {
         name: "app-chatbot",
-        script: "src/app.ts",
+        script: "./src/app.ts",
         interpreter: "node",
         watch: false,
         max_memory_restart: '1000M',
